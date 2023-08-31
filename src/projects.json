@@ -1,0 +1,90 @@
+[ { 
+    "id": 1,
+    "name": "Timeline App",
+    "app": "https://react-timeline-chart-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-timeline",
+    "description": "CRUD & search event based on start date & end date and event is sorted non-overlapped",
+    "image": "https://user-images.githubusercontent.com/18588513/264529816-89de7c23-92df-41be-b783-029457596808.png" 
+  },
+  { 
+    "id": 2,
+    "name": "Note Taking App",
+    "app": "https://react-note-taking-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-note-taking",
+    "description": "CRUD & search note & CRUD tags on each note",
+    "image": "https://user-images.githubusercontent.com/18588513/260845578-9124e03c-8350-49f7-b2ba-5df1c89c026a.png"
+  },
+  { 
+    "id": 3,
+    "name": "Shopping Cart App",
+    "app": "https://react-shopping-cart-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-shopping-cart",
+    "description": "CRUD & search item in shpping cart",
+    "image": "https://user-images.githubusercontent.com/18588513/261878326-0e8d49ea-0990-4219-95f2-16bd3cf29690.png"
+  },
+  { 
+    "id": 4,
+    "name": "Auth",
+    "app": "https://react-firebase-auth-by-yh.web.app/login",
+    "github": "https://github.com/johnnyhsu1106/react-firebase-auth",
+    "description": "CRUD account using the Firebase Authentication",
+    "image": "https://user-images.githubusercontent.com/18588513/261062453-6f514c79-3884-4377-9d0f-9996e0061899.png"
+  },
+  { 
+    "id": 5,
+    "name": "Word Guess - Hangman Game",
+    "app": "https://react-word-guess-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-word-guess",
+    "description": "Guess the random word, using UI keyboard or own keyboard",
+    "image": "https://user-images.githubusercontent.com/18588513/257075653-bd01fba1-42e3-4607-91ff-4c93ce8a9426.png"
+  },
+  { 
+    "id": 6,
+    "name": "To-do List App",
+    "app": "https://react-todo-list-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-todo-list",
+    "description": "CRUD & search Todos",
+    "image": "https://user-images.githubusercontent.com/18588513/256357778-f5f3d5da-ae27-4064-b1cc-1c4696687d68.png"
+  },
+  { 
+    "id": 7,
+    "name": "Movie Search App",
+    "app": "https://react-movie-search-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-movie-search",
+    "description": "Search movie based no movie title",
+    "image": "https://user-images.githubusercontent.com/18588513/263905724-8e7c865a-bb37-4f9e-b322-66d63271ce80.png"
+  },
+  { 
+    "id": 8,
+    "name": "Currency Convert",
+    "app": "https://react-currency-converter-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106?tab=repositories",
+    "description": "Convert currencies in Real Time",
+    "image": "https://user-images.githubusercontent.com/18588513/255404807-dcec17e7-9977-4b02-b213-1adf297cf452.png"
+  },
+  { "id": 9,
+    "name": "Tic-Tac-Toe",
+    "app": "https://react-tic-tac-toe-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-tic-tac-toe",
+    "description": "Play the classic Tic-Tac-Toe game",
+    "image": "https://user-images.githubusercontent.com/18588513/255433017-69dd2958-fdf7-4f97-b272-7da763fb9b6a.png"
+  },
+  { 
+    "id": 10,
+    "name": "Multi Step Form Component",
+    "app": "https://react-multistep-form-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-multistep-form",
+    "description": "A multi step form using custom hook",
+    "image": "https://user-images.githubusercontent.com/18588513/257354881-b5ff2a89-6aa8-41b6-85af-307d9c9b6a6d.png"
+  },
+  { 
+    "id": 11,
+    "name": "Multi Select Dropdown Component",
+    "app": "https://react-dropdown-menu-by-yh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-multi-select-dropdown",
+    "description": "A dropdown supports multi select built from scratch",
+    "image": "https://user-images.githubusercontent.com/18588513/257846640-e06d0604-87a4-4d4d-926c-27fee3df099c.png"
+  }
+
+
+]

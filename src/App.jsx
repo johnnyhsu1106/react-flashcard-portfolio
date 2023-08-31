@@ -1,10 +1,12 @@
+import { Container } from 'react-bootstrap'
+import ProjectLinks from './components/ProjectLinks'
 import './App.css'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <Container className='d-flex my-5'>
+      <ProjectLinks />
+    </Container>
   )
 }
 
