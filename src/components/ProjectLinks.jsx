@@ -6,7 +6,7 @@ import projects from '../projects.json';
 
 const ProjectLinks = () => {
   return (
-    <Row className='d-flex'>
+    <Row className='d-flex justify-content-center'>
       {projects.map((project) => {
         return (
           <ProjectLink key={project.id} {...project} />
