@@ -1,8 +1,13 @@
-# React + Vite
+### Getting Started
+This is a Flash Card Portfolio  built based on React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App: 
 
-Currently, two official plugins are available:
+Checkout this repo, install dependencies, then start the gulp process with the following:
+```
+> npm install
+> npm dev
+```
+![image](https://github.com/johnnyhsu1106/react-portfolio/assets/18588513/b92e7014-2377-4a7f-be44-127054bdedf5)
+![image](https://github.com/johnnyhsu1106/react-portfolio/assets/18588513/28979300-840f-4e28-b708-b7bfec5983ff)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
