@@ -23,10 +23,10 @@ const ProjectLink = ({
       </Card.Body>
 
       <Stack direction="horizontal" className='d-flex justify-content-end'>
-        <Card.Link href={app}>
+        <Card.Link href={app} target='_blank'>
           <Image src={linkLogo} thumbnail  alt={name}  style={{ width: '30px', height: '30px'}}/>
         </Card.Link>
-        <Card.Link href={app}>
+        <Card.Link href={github} target='_blank'>
           <Image src={githubLogo} thumbnail  alt="github logo" />
         </Card.Link>
       </Stack>
