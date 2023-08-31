@@ -1,12 +1,18 @@
-import { Container } from 'react-bootstrap'
-import ProjectLinks from './components/ProjectLinks'
+import { Container } from 'react-bootstrap';
+import { SearchBar } from './components/SearchBar';
+import ProjectCards from './components/ProjectCards';
+import { ProjectCardsProvider } from './context/ProjectContext';
 import './App.css'
 
 const App = () => {
   return (
-    <Container className='d-flex my-5'>
-      <ProjectLinks />
-    </Container>
+    <ProjectCardsProvider>
+      <Container>
+        <h1>Portfolio</h1>
+        <SearchBar />
+        <ProjectCards />
+      </Container>
+    </ProjectCardsProvider>
   )
 }
 
