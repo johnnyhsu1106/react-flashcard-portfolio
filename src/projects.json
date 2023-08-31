@@ -68,22 +68,5 @@
     "github": "https://github.com/johnnyhsu1106?tab=repositories",
     "description": "Convert currencies in Real Time",
     "image": "react-currency-converter.png"
-  },
-  { 
-    "id": 10,
-    "name": "Multi Step Form Component",
-    "app": "https://react-multistep-form-by-yh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-multistep-form",
-    "description": "A multi step form using custom hook",
-    "image": "react-multi-step-form.png"  },
-  { 
-    "id": 11,
-    "name": "Multi Select Dropdown Component",
-    "app": "https://react-dropdown-menu-by-yh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-multi-select-dropdown",
-    "description": "A dropdown supports multi select built from scratch",
-    "image": "react-multi-select-dropdown.png"
   }
-
-
 ]

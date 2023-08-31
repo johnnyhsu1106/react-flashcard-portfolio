@@ -23,7 +23,6 @@ body {
   width: 15rem !important;
   height: 300px !important;
   border-radius: .25rem;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
   background-color: white;
   transform-style: preserve-3d;
   transition: 150ms;
@@ -33,7 +32,7 @@ body {
 
 .card:hover {
   --translate-y: -2px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 5px 10px rgba(240, 238, 238, 0.3);
 }
 
 .card.flip {
@@ -54,4 +53,8 @@ body {
 
 .card .back {
   transform: rotateY(180deg);
+}
+
+.description {
+  font-size: 0.8rem;
 }

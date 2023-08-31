@@ -26,7 +26,7 @@ const ProjectLink = ({
     >
       <Card.Body className={`front position-relative`}>
         <Card.Title>{name}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text className='description'>{description}</Card.Text>
       
         <Stack 
           className='d-flex justify-content-end position-absolute end-0 bottom-0'

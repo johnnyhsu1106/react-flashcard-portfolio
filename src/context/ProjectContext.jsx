@@ -10,8 +10,6 @@ const useProjectsContext = () => {
 const ProjectCardsProvider = ({children}) => {
   const [keyword, setKeyword] = useState('');
   const [projects, setProjects] = useState(COMPLETED_PROJECTS);
-  const [isFlip, setIsFlip] = useState(false);
-
 
   const filteredProjects = useMemo(() => {
     if (keyword.trim() === '') {
@@ -23,22 +21,15 @@ const ProjectCardsProvider = ({children}) => {
     })  
   }, [keyword, projects])
   
+  
   const handleSearchProject = (keyword) => {
     setKeyword(keyword);
   };
   
-  const handleProjectCardFlip = () => {
-    setIsFlip((isPrevFlip) => {
-      return !isPrevFlip;
-    })
-  };
-
   const context = {
-    isFlip,
     keyword,
     filteredProjects,
-    handleSearchProject,
-    handleProjectCardFlip
+    handleSearchProject
   };
 
   return (
