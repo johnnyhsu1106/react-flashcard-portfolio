@@ -12,11 +12,8 @@ const ProjectLink = ({
   description,
   image
 }) => {
-  
   const [isFlip, setIsFlip] = useState(false);
   const flip = isFlip ? 'flip' : '';
-  console.log("is Flip ", isFlip);
-  console.log(' flip ', flip);
   
   return (
     <Card
@@ -44,7 +41,7 @@ const ProjectLink = ({
 
       <Card.Body className='back'>
       <Card.Img
-        // variant="bottom" 
+        variant="bottom" 
         src={`images/${image}`} 
       />
       </Card.Body>

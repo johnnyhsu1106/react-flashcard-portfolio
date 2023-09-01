@@ -14,7 +14,8 @@ const SearchBar = () => {
       placeholder='Search by keyword'
       value={query}
       onChange={(e) => { handleSearchProject(e.target.value) }}
-    />
+    >
+    </Form.Control>
   )
 }
 
