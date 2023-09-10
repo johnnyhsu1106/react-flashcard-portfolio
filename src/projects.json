@@ -65,7 +65,7 @@
     "id": 9,
     "name": "Currency Convert",
     "app": "https://react-currency-converter-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106?tab=repositories",
+    "github": "https://github.com/johnnyhsu1106/react-currency-converter",
     "description": "Convert currencies in Real Time",
     "image": "react-currency-converter.png"
   }
