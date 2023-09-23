@@ -9,16 +9,7 @@ const SearchBar = () => {
     handleClearSearch
   } = useProjectsContext();
 
-  const [hasKeyword, setHasKeyword] = useState(false);
-
-  useEffect(() => {
-    if (keyword.trim() !== '') {
-      setHasKeyword(true);
-      return;
-    }
-
-    setHasKeyword(false);
-  }, [keyword]);
+  const hasKeyword = keyword !== '';
   
   const DeleteBtn = memo(({ hasKeyword }) => {
     if (!hasKeyword) {
@@ -35,7 +26,7 @@ const SearchBar = () => {
   })
 
   return (
-    <Form.Group className='search-bar'>
+    <Form.Group className="position-relative">
       <Form.Control
         className='w-50 mt-5 mb-5 mx-auto'
         type='text'
