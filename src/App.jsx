@@ -9,7 +9,7 @@ const App = () => {
     <ProjectCardsProvider>
       <Container>
         <h1 className='mt-4 text-center'>Portfolio </h1>
-        <p className='text-center'>flip the card to how it looks like</p>
+        <p className='text-center'>flip the card and see how it looks like</p>
         <SearchBar />
         <ProjectCards />
       </Container>
