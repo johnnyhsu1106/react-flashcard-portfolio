@@ -58,3 +58,17 @@ body {
 .description {
   font-size: 0.8rem;
 }
+
+.search-bar {
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 0;
+  right: 26%;
+  font-size: 30px;
+  color: black;
+  font-weight: 200;
+  cursor: pointer;
+}
