@@ -28,7 +28,7 @@ const SearchBar = () => {
   return (
     <Form.Group className="position-relative">
       <Form.Control
-        className='w-50 mt-5 mb-5 mx-auto'
+        className='w-50 mt-3 mb-5 mx-auto'
         type='text'
         placeholder='Search by keyword'
         value={keyword}

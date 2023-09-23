@@ -8,8 +8,8 @@ const App = () => {
   return (
     <ProjectCardsProvider>
       <Container>
-        <h1>Portfolio </h1>
-        <p>flip the card to see the thumbnail</p>
+        <h1 className='mt-4 text-center'>Portfolio </h1>
+        <p className='text-center'>flip the card to how it looks like</p>
         <SearchBar />
         <ProjectCards />
       </Container>

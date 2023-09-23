@@ -39,6 +39,14 @@
     "image": "react-word-guess.png"
   },
   { 
+    "id": 8,
+    "name": "Pokemon App",
+    "app": "https://react-pokemon-app-by-jh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-pokemon-app",
+    "description": "Search and Caputre Pokemon",
+    "image": "react-pokemon-app.png"
+  },
+  { 
     "id": 6,
     "name": "To-Do List",
     "app": "https://react-todo-list-by-jh.web.app/",
@@ -53,14 +61,6 @@
     "github": "https://github.com/johnnyhsu1106/react-movie-search",
     "description": "Search movie based no movie title",
     "image": "react-movie-search.png"
-  },
-  { 
-    "id": 8,
-    "name": "Pokemon App",
-    "app": "https://react-pokemon-app-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-pokemon-app",
-    "description": "Search Pokemon and Caputre it",
-    "image": "react-pokemon-app.png"
   },
   { "id": 9,
     "name": "Tic-Tac-Toe",
