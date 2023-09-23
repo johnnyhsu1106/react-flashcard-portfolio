@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useMemo, useRef } from 'react'
+import { createContext, useContext, useState, useMemo, useRef, useEffect } from 'react'
 import COMPLETED_PROJECTS from '../projects.json';
 
 const ProjectCardsContext = createContext();
@@ -10,6 +10,22 @@ const useProjectsContext = () => {
 const ProjectCardsProvider = ({children}) => {
   const [keyword, setKeyword] = useState('');
   const [projects, setProjects] = useState(COMPLETED_PROJECTS);
+
+  // Handle ESC key is pressed
+  useEffect(() => {
+    const handler = (e) => {
+      if (e.keyCode !== 27) {
+        return;
+      };
+      setKeyword('');
+    }
+
+    document.addEventListener('keydown', handler);
+
+    return () => {
+      document.removeEventListener('keydown', handler);
+    }
+  }, []);
 
   const filteredProjects = useMemo(() => {
     if (keyword.trim() === '') {

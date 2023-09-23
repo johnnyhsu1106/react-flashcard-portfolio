@@ -63,7 +63,7 @@ body {
   position: relative;
 }
 
-.delete-btn {
+.search-delete-btn {
   position: absolute;
   top: 0;
   right: 26%;

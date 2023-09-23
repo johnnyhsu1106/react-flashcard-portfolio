@@ -1,6 +1,6 @@
 import { Form } from 'react-bootstrap';
 import { useProjectsContext } from '../context/ProjectContext';
-import { memo } from 'react';
+import { memo, useEffect, useState } from 'react';
 
 const SearchBar = () => {
   const {
@@ -8,14 +8,25 @@ const SearchBar = () => {
     handleSearchProject,
     handleClearSearch
   } = useProjectsContext();
+
+  const [hasKeyword, setHasKeyword] = useState(false);
+
+  useEffect(() => {
+    if (keyword.trim() !== '') {
+      setHasKeyword(true);
+      return;
+    }
+
+    setHasKeyword(false);
+  }, [keyword]);
   
-  const DeleteBtn = memo(({ keyword }) => {
-    if (keyword.trim() === '') {
+  const DeleteBtn = memo(({ hasKeyword }) => {
+    if (!hasKeyword) {
       return null;
     }
     return (
       <div 
-        className='delete-btn'
+        className='search-delete-btn'
         onClick={handleClearSearch}
       >
         &times;
@@ -32,7 +43,7 @@ const SearchBar = () => {
         value={keyword}
         onChange={(e) => { handleSearchProject(e.target.value) }}
       />
-      <DeleteBtn keyword={keyword}/>
+      <DeleteBtn hasKeyword={hasKeyword} />
     </Form.Group>
 
   )
