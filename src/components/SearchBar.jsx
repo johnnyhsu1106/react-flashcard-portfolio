@@ -10,7 +10,7 @@ const SearchBar = () => {
   } = useProjectsContext();
   
   const DeleteBtn = memo(({ keyword }) => {
-    if (keyword && keyword.trim() === '') {
+    if (keyword.trim() === '') {
       return null;
     }
     return (
