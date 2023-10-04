@@ -63,10 +63,10 @@
     "image": "react-movie-search.png"
   },
   { "id": 9,
-    "name": "Tic-Tac-Toe",
-    "app": "https://react-tic-tac-toe-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-tic-tac-toe",
-    "description": "Play the classic Tic-Tac-Toe game",
-    "image": "react-tic-tac-toe.png"
+    "name": "Convert Currency",
+    "app": "https://react-currency-converter-by-jh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-currency-converter",
+    "description": "Convert Currency in Real Time",
+    "image": "react-currency-converter.png"
   }
 ]
