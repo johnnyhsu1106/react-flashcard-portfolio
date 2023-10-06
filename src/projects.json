@@ -33,7 +33,7 @@
   { 
     "id": 5,
     "name": "Word Guess - Hangman Game",
-    "app": "https://react-word-guess-by-jh.web.app/",
+    "app": "https://react-word-guess-w-rq-by-jh.web.app/",
     "github": "https://github.com/johnnyhsu1106/react-word-guess",
     "description": "Guess the random word, using UI keyboard or own keyboard",
     "image": "react-word-guess.png"
