@@ -32,11 +32,11 @@
   },
   { 
     "id": 5,
-    "name": "Word Guess - Hangman Game",
-    "app": "https://react-word-guess-w-rq-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-word-guess",
+    "name": "Word Guessing - Hangman Game",
+    "app": "https://react-word-guessing-by-jh.web.app/",
+    "github": "https://github.com/johnnyhsu1106/react-word-guessing",
     "description": "Guess the random word, using UI keyboard or own keyboard",
-    "image": "react-word-guess.png"
+    "image": "react-word-guessing.png"
   },
   { 
     "id": 8,
