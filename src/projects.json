@@ -2,7 +2,7 @@
     "id": 1,
     "name": "Timeline",
     "app": "https://react-timeline-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-timeline",
+    "githubJS": "https://github.com/johnnyhsu1106/react-timeline",
     "description": "CRUD & search event based on start date & end date and event is sorted non-overlapped",
     "image": "react-timeline.png" 
   },
@@ -10,7 +10,7 @@
     "id": 2,
     "name": "Note Taking",
     "app": "https://react-note-taking-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-note-taking",
+    "githubJS": "https://github.com/johnnyhsu1106/react-note-taking",
     "description": "CRUD & search note & CRUD tags on each note",
     "image": "react-note-taking.png"
   },
@@ -18,7 +18,7 @@
     "id": 3,
     "name": "Shopping Cart",
     "app": "https://react-shopping-cart-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-shopping-cart",
+    "githubJS": "https://github.com/johnnyhsu1106/react-shopping-cart",
     "description": "CRUD & search item in shpping cart",
     "image": "react-shopping-cart.png"
   },
@@ -26,7 +26,7 @@
     "id": 4,
     "name": "Firebase Auth",
     "app": "https://react-firebase-auth-by-jh.web.app/login",
-    "github": "https://github.com/johnnyhsu1106/react-firebase-auth",
+    "githubJS": "https://github.com/johnnyhsu1106/react-firebase-auth",
     "description": "CRUD account using the Firebase Authentication",
     "image": "react-auth.png"
   },
@@ -34,7 +34,8 @@
     "id": 5,
     "name": "Word Guessing - Hangman Game",
     "app": "https://react-word-guessing-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-word-guessing",
+    "githubJS": "https://github.com/johnnyhsu1106/react-word-guessing",
+    "githubTS": "https://github.com/johnnyhsu1106/react-word-guessing",
     "description": "Guess the random word, using UI keyboard or own keyboard",
     "image": "react-word-guessing.png"
   },
@@ -42,7 +43,8 @@
     "id": 8,
     "name": "Pokemon App",
     "app": "https://react-pokemon-app-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-pokemon-app",
+    "githubJS": "https://github.com/johnnyhsu1106/react-pokemon-app",
+    "githubTS": "https://github.com/johnnyhsu1106/react-pokemon-app-ts",
     "description": "Search and Caputre Pokemon",
     "image": "react-pokemon-app.png"
   },
@@ -50,7 +52,8 @@
     "id": 6,
     "name": "To-Do List",
     "app": "https://react-todo-list-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-todo-list",
+    "githubJS": "https://github.com/johnnyhsu1106/react-todo-list",
+    "githubTS": "https://github.com/johnnyhsu1106/react-todo-list-ts",
     "description": "CRUD & search Todos",
     "image": "react-to-do-list.png"
   },
@@ -58,14 +61,15 @@
     "id": 7,
     "name": "Movie Search",
     "app": "https://react-movie-search-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-movie-search",
+    "githubJS": "https://github.com/johnnyhsu1106/react-movie-search",
     "description": "Search movie based no movie title",
     "image": "react-movie-search.png"
   },
   { "id": 9,
     "name": "Convert Currency",
     "app": "https://react-currency-converter-by-jh.web.app/",
-    "github": "https://github.com/johnnyhsu1106/react-currency-converter",
+    "githubJS": "https://github.com/johnnyhsu1106/react-currency-converter",
+    "githubTS": "https://github.com/johnnyhsu1106/react-currency-converter-ts",
     "description": "Convert Currency in Real Time",
     "image": "react-currency-converter.png"
   }

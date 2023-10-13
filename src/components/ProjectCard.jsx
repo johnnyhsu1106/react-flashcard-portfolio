@@ -1,14 +1,17 @@
 import { Card, Stack, Image } from 'react-bootstrap';
 import linkLogo from '/images/link.svg';
-import githubLogo from '/images/github.svg';
-import { useState, useRef } from 'react';
-// import { useProjectsContext } from '../context/ProjectContext';
+// import githubLogo from '/images/github.svg';
+import jsLogo from '/images/javascript.svg';
+import tsLogo from '/images/typescript.svg';
+
+import { useState } from 'react';
 
 
 const ProjectLink = ({
   name,
   app,
-  github,
+  githubJS,
+  githubTS,
   description,
   image
 }) => {
@@ -32,9 +35,12 @@ const ProjectLink = ({
           <Card.Link href={app} target='_blank'>
             <Image src={linkLogo} thumbnail  alt={name} className='logo' />
           </Card.Link>
-          <Card.Link href={github} target='_blank'>
-            <Image src={githubLogo} thumbnail  alt="github logo" className='logo' />
-          </Card.Link>
+          {githubJS ? <Card.Link href={githubJS} target='_blank'>
+            <Image src={jsLogo} thumbnail  alt="JS logo" className='logo' />
+          </Card.Link> : null}
+          {githubTS ? <Card.Link href={githubTS} target='_blank'>
+            <Image src={tsLogo} thumbnail  alt="TS logo" className='logo' />
+          </Card.Link> : null}
         </Stack>
       </Card.Body>
 
