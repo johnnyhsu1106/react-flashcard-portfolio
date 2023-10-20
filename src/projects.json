@@ -27,6 +27,7 @@
     "name": "Firebase Auth",
     "app": "https://react-firebase-auth-by-jh.web.app/login",
     "githubJS": "https://github.com/johnnyhsu1106/react-firebase-auth",
+    "githubTS": "https://github.com/johnnyhsu1106/react-firebase-auth-ts",
     "description": "CRUD account using the Firebase Authentication",
     "image": "react-auth.png"
   },
