@@ -11,7 +11,7 @@ const ProjectCards = () => {
   } = useProjectsContext();
 
   return (
-    <Row className='justify-content-center card-grid'>
+    <Row className='card-grid'>
       {filteredProjects.map((project) => {
         return (
           <ProjectCard key={project.id} {...project} />
