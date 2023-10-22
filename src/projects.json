@@ -80,7 +80,7 @@
   "app": "https://react-photo-editor-by-jh.web.app/",
   "githubJS": "https://github.com/johnnyhsu1106/react-photo-editor",
   "githubTS": "https://github.com/johnnyhsu1106/react-photo-editor-ts",
-  "description": "Edit Photo",
+  "description": "Upload and Edit Photo",
   "image": "react-photo-editor.png"
 }
 ]
