@@ -11,14 +11,17 @@ const SearchBar = () => {
 
   const hasKeyword = keyword !== '';
   
-  const DeleteBtn = memo(({ hasKeyword }) => {
+  const DeleteBtn = memo(({ 
+    hasKeyword,
+    onClickDeleteBtn
+  }) => {
     if (!hasKeyword) {
       return null;
     }
     return (
       <div 
         className='search-delete-btn'
-        onClick={handleSearchClear}
+        onClick={onClickDeleteBtn}
       >
         &times;
       </div> 
@@ -34,7 +37,7 @@ const SearchBar = () => {
         value={keyword}
         onChange={(e) => { handleProjectSearch(e.target.value) }}
       />
-      <DeleteBtn hasKeyword={hasKeyword} />
+      <DeleteBtn hasKeyword={hasKeyword} onClickDeleteBtn={handleSearchClear} />
     </Form.Group>
 
   )
