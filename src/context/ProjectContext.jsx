@@ -38,19 +38,19 @@ const ProjectCardsProvider = ({children}) => {
   }, [keyword, projects])
   
   
-  const handleProjectSearch = (keyword) => {
+  const handleSearchProject = (keyword) => {
     setKeyword(keyword);
   };
 
-  const handleSearchClear = () => {
+  const handleClearSearch = () => {
     setKeyword('');
   }
   
   const context = {
     keyword,
     filteredProjects,
-    handleProjectSearch,
-    handleSearchClear
+    handleSearchProject,
+    handleClearSearch
   };
 
   return (

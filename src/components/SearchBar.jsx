@@ -26,7 +26,7 @@ const SearchBar = () => {
         &times;
       </div> 
     )
-  })
+  });
 
   return (
     <Form.Group className="position-relative">
