@@ -5,8 +5,8 @@ import { memo, useEffect, useState } from 'react';
 const SearchBar = () => {
   const {
     keyword,
-    handleSearchProject,
-    handleClearSearch
+    handleProjectSearch,
+    handleSearchClear
   } = useProjectsContext();
 
   const hasKeyword = keyword !== '';
@@ -18,7 +18,7 @@ const SearchBar = () => {
     return (
       <div 
         className='search-delete-btn'
-        onClick={handleClearSearch}
+        onClick={handleSearchClear}
       >
         &times;
       </div> 
@@ -32,7 +32,7 @@ const SearchBar = () => {
         type='text'
         placeholder='Search by keyword'
         value={keyword}
-        onChange={(e) => { handleSearchProject(e.target.value) }}
+        onChange={(e) => { handleProjectSearch(e.target.value) }}
       />
       <DeleteBtn hasKeyword={hasKeyword} />
     </Form.Group>
