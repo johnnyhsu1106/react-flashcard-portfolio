@@ -17,6 +17,10 @@ const ProjectLink = ({
 }) => {
   const [isFlip, setIsFlip] = useState(false);
   const flip = isFlip ? 'flip' : '';
+
+  const handleIconClick = (e) => {
+    e.stopPropagation();
+  };
   
   return (
     <Card
@@ -33,13 +37,13 @@ const ProjectLink = ({
           direction="horizontal"
         >
           <Card.Link href={app} target='_blank'>
-            <Image src={linkLogo} thumbnail  alt={name} className='logo' />
+            <Image src={linkLogo} thumbnail  alt={name} className='logo' onClick={handleIconClick} />
           </Card.Link>
           {githubJS ? <Card.Link href={githubJS} target='_blank'>
-            <Image src={jsLogo} thumbnail  alt="JS logo" className='logo' />
+            <Image src={jsLogo} thumbnail  alt="JS logo" className='logo' onClick={handleIconClick} />
           </Card.Link> : null}
           {githubTS ? <Card.Link href={githubTS} target='_blank'>
-            <Image src={tsLogo} thumbnail  alt="TS logo" className='logo' />
+            <Image src={tsLogo} thumbnail  alt="TS logo" className='logo' onClick={handleIconClick} />
           </Card.Link> : null}
         </Stack>
       </Card.Body>
