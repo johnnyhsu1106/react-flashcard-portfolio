@@ -76,11 +76,19 @@
     "image": "react-currency-converter.png"
   }, 
   { "id": 10,
-  "name": "Photo Editor",
-  "app": "https://react-photo-editor-by-jh.web.app/",
-  "githubJS": "https://github.com/johnnyhsu1106/react-photo-editor",
-  "githubTS": "https://github.com/johnnyhsu1106/react-photo-editor-ts",
-  "description": "Upload and Edit Photo",
-  "image": "react-photo-editor.png"
-}
+    "name": "Photo Editor",
+    "app": "https://react-photo-editor-by-jh.web.app/",
+    "githubJS": "https://github.com/johnnyhsu1106/react-photo-editor",
+    "githubTS": "https://github.com/johnnyhsu1106/react-photo-editor-ts",
+    "description": "Upload and Edit Photo",
+    "image": "react-photo-editor.png"
+  },
+  { "id": 11,
+    "name": "Book Search",
+    "app": "https://react-book-search-by-jh.web.app/",
+    "githubJS": "https://github.com/johnnyhsu1106/react-book-search",
+    "githubTS": "https://github.com/johnnyhsu1106/react-book-search-ts",
+    "description": "Book Search with Infinite Scrolling Page",
+    "image": "react-book-search.png"
+  }
 ]
